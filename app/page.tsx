@@ -1,6 +1,7 @@
 import Image from "next/image";
 import TextLogo from "@/components/textLogo";
 import Header from "@/components/header";
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (
@@ -28,11 +29,7 @@ export default function Home() {
         </div>
       </main>
       {/* footer */}
-      <div className="bg-slate-700 flex flex-row items-center p-2 w-full justify-center-safe">
-          <div className="basis-64"><TextLogo /></div>
-          <div className="basis-64">Менюшка по страницам</div>
-          <div className="128">© 2026 dianarojina</div>
-      </div>
+      <Footer />
     </div>
   );
 }
